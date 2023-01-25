@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: #fff;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+video{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.box1{
+    position: absolute;
+    border-radius: 50px;
+    width: 500px;
+    height: 500px;
+    background: rgba(0, 0, 0, 0.8);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+h1{
+    color: #a9adeb;
+    font-size: 100px;
+    align-items: center;
+    text-align: center;
+}
+
+input{
+    width: 400px;
+    background:rgba(0, 0, 0, 0.4);
+    box-shadow: 0px;
+    border: none;
+    padding: 10px 0;
+    text-indent: 10px;
+    margin: 8px 0;
+    font-size: 14px;
+    letter-spacing: 2px;
+    line-height: 40px;
+}
+
+input::placeholder{
+    color: #757deb;
+}
+
+input:focus{
+    color:#757deb;
+    outline: none;
+    border-bottom: 1px solid #757deb80;
+    transition: 0.5s;
+}
+
+input:focus::placeholder{
+    opacity: 0;
+}
+
+.form{
+    position: relative;
+    text-align: center;
+    align-items: center;
+    background: rgba(0, 0,0, 0.2);
+    line-height: 40px;
+}
+
+.form button{
+    width: 70%;
+    margin-top: 35px;
+    background-color: rgba(0, 0,0, 0.4);
+    outline: none;
+    border-radius: 8px;
+    padding: 13px;
+    color: #757deb;
+    letter-spacing: 2px;
+    border:none;
+    cursor: pointer;
+}
+
+.form button:hover{
+    background-color: #757deb;
+    color: #fff;
+    transition: background-color 0.5s ease;
+}
+
+.little-font{
+    align-items: center;
+    text-align: center;
+    background: rgba(0, 0,0, 0.2);
+    border-radius: 8px;
+    border-bottom: #fff;
+}
+
+.little-font p{
+    color: #757deb;
+}
+
+.little-font a{
+    color: #fff;
+}
+
+.little-font a:hover{
+    color: #757deb80;
+    transition: ease 0.5s;
+}
+
+.little-font span{
+    color: #757deb;
+}
+
